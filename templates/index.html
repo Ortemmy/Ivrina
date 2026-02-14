@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Мой первый сайт с мозгами</title>
+    <link rel="stylesheet"
+    href="{{ url_for( 'static', filename='style.css')}}">
+</head>
+<main>
+<body>
+    <h1>Мой первый сайт с мозгами</h1>
+    <p>Сегодня научимся отправлять данные на сервер и получать ответ</p>
+    <form action="/submit" method="post">
+        <label for="message">Напиши,как ты себя чуствуешь: </label><br>
+        <textarea id="message" name="message" rows="4" cols="50"
+        placeholder="например у вас хорошее настроение"> </textarea><br>C
+        <button type="submit">Отправить</button>
+    </form>
+    <p>После отправки тебя перенаправит на страницу с ответом сервером</p>
+</body>
+</main>
+</html>

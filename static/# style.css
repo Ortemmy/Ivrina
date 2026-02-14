@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(62, 62, 62);}
+header{
+    background: white; padding: 10px; border-radius: 10px;
+    text-align: center; margin-left: auto; margin-right: auto;
+    width: 80%; margin-bottom: 1%;}
+main{
+    background: white; padding: 10px; border-radius: 10px;
+     text-align: center; margin-left: auto; margin-right: auto;
+    width: 80%; margin-bottom: 1%}

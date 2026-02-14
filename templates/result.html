@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Результат</title>
+    <link rel="stylesheet"
+    href="{{ url_for( 'static', filename='style.css')}}">
+</head>
+<body>
+    <h1>Ответ сервера</h1>
+    <p><strong>ты написал</strong></p>
+    <blockquote>{{user_message}}</blockquote>
+    <p><strong>сервер написал</strong></p>
+    <blockquote>{{reply}}</blockquote>
+    <p><a href="/"> Вернуться назад</a></p>
+</body>
